@@ -19,7 +19,6 @@ export const AreaHeader = styled.div`
            }
 
     }
-
     nav{
         ul{
             display:flex;
