@@ -1,9 +1,13 @@
 import React from "react";
 
+import { ContainerPage, TitlePage } from '../../components/Main';
+
 const Page = () => {
     return(
 
-    <div>Configurações</div>
+    <ContainerPage>
+        <TitlePage>Configurações</TitlePage>
+    </ContainerPage>
 
 );
 }
