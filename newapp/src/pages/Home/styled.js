@@ -1,41 +1,27 @@
 import styled from "styled-components";
 
-import logo from '../../img/fundo.png';
+
+
+export const ImgFundo = styled.div`
+     display: flex;
+     flex-direction: column;     
+       img{
+       width: 100%;
+       height: auto;
+     }  
+`;
+
 
 export const CaixaPage = styled.div`
-    padding: 20px;
-    background-image: url(${logo});
-    background-repeat: no-repeat; 
-    background-size: cover;    
-    height:100vh;
-    display:flex;
-    flex-direction: column;            
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 30px; 
     button{
-    width:150px;        
-`
+        width: 100%; 
+        background-color:#66203C;   
+        color: #fff;       
+         }
+  `;
 
-export const ContainerPage = styled.div`
-    display:flex;
-    flex-direction: column;        
-    background-color: red;   
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    font-family: sans-serif;
-   
-    p{
-        color: #fff;
-    } 
-    `
-
-    export const  TitlePage = styled.h1`
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    height: 6vh;
-    font-size:24px;
-
-`
    

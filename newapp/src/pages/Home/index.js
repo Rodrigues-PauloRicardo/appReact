@@ -1,7 +1,10 @@
 import React from "react";
 
-import { CaixaPage, ContainerPage ,TitlePage} from "./styled";
+import { CaixaPage, ImgFundo} from "./styled";
 
+import { ContainerPage, TitlePage } from '../../components/Main';
+
+import img from "../../img/evolution.png";
 
 
 const Page = () => {
@@ -13,9 +16,8 @@ const Page = () => {
 Embora muitos dos personagens sejam seres humanos com força sobre-humana e/ou habilidades sobrenaturais, Dragon Ball também inclui animais antropomórficos e formas de vida extraterrestre, bem como vários personagens que são deuses que governam o universo.</p> 
     </ContainerPage>
 
-
-
-    <CaixaPage>      
+    <ImgFundo>
+    <CaixaPage>            
         <button>Goku</button>
         <button>Bulma</button>
         <button>Yamcha</button>
@@ -24,10 +26,11 @@ Embora muitos dos personagens sejam seres humanos com força sobre-humana e/ou h
         <button>Piccolo</button>
         <button>Gohan</button>
         <button>Vegeta</button>
+        <button>Trunks</button>
         <button>Trunks</button>    
-               
     </CaixaPage>
-
+    <img src={img} alt="" /> 
+</ImgFundo>
     
 </>
 );
