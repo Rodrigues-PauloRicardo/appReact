@@ -4,7 +4,9 @@ import { CaixaPage, ImgFundo} from "./styled";
 
 import { ContainerPage, TitlePage } from '../../components/Main';
 
-import img from "../../img/evolution.png";
+import img from "../../img/dragon.jpg";
+
+import { Link } from 'react-router-dom';
 
 
 const Page = () => {
@@ -17,17 +19,21 @@ Embora muitos dos personagens sejam seres humanos com força sobre-humana e/ou h
     </ContainerPage>
 
     <ImgFundo>
-    <CaixaPage>            
-        <button>Goku</button>
-        <button>Bulma</button>
-        <button>Yamcha</button>
-        <button>Kuririn</button>
-        <button>Tenshinhan</button>
-        <button>Piccolo</button>
-        <button>Gohan</button>
-        <button>Vegeta</button>
-        <button>Trunks</button>
-        <button>Trunks</button>    
+    <CaixaPage>               
+                                
+            <button><Link to="./goku">Goku</Link></button>
+            
+            <button><Link to="./config">Bulma</Link></button>
+
+
+            <button><Link to="./logout">Yamcha</Link></button> 
+            <button><Link to="./">Kuririn</Link></button>
+            <button><Link to="./config">Tenshinhan</Link></button>
+            <button><Link to="./logout">Piccolo</Link></button> 
+            <button><Link to="./">Gohan</Link></button>
+            <button><Link to="./config">Vegeta</Link></button>
+            <button><Link to="./logout">Trunks</Link></button>     
+                       
     </CaixaPage>
     <img src={img} alt="" /> 
 </ImgFundo>

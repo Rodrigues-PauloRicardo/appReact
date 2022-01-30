@@ -8,7 +8,7 @@ function Header(){
         <AreaHeader>
         <div className="container">
             <div className="logo">
-                <img src="../../../logo.png"/>
+                <img src="../../../logo.png" />                
                 </div>
             <nav>
                 <ul>
