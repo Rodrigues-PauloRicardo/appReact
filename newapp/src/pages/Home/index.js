@@ -24,14 +24,12 @@ Embora muitos dos personagens sejam seres humanos com força sobre-humana e/ou h
             <button><Link to="./goku">Goku</Link></button>            
             <button><Link to="./bulma">Bulma</Link></button>
             <button><Link to="./yamcha" >Yamcha</Link></button>
-            
-
             <button><Link to="./kuririn">Kuririn</Link></button>
-            <button><Link to="./config">Tenshinhan</Link></button>
-            <button><Link to="./logout">Piccolo</Link></button> 
-            <button><Link to="./>Gohan">Gohan</Link></button>
-            <button><Link to="./config">Vegeta</Link></button>
-            <button><Link to="./logout">Trunks</Link></button>     
+            <button><Link to="./tenshinhan">Tenshinhan</Link></button>
+            <button><Link to="./piccolo">Piccolo</Link></button> 
+            <button><Link to="./gohan">Gohan</Link></button>
+            <button><Link to="./vegeta">Vegeta</Link></button>
+            <button><Link to="./trunks">Trunks</Link></button>     
                        
     </CaixaPage>
     <img src={img} alt="" /> 

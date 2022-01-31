@@ -4,6 +4,7 @@ import { ContainerPage, TitlePage, Descrition} from '../../components/Main';
 
 import imagemGoku from '../../img/SonGoku.jpg';
 
+
 const Page = () => {
     return(
         <>

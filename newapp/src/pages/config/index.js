@@ -6,7 +6,7 @@ const Page = () => {
     return(
 
     <ContainerPage>
-        <TitlePage>Configurações</TitlePage>
+        <TitlePage>Minhas Redes</TitlePage>
     </ContainerPage>
 
 );

@@ -6,8 +6,4 @@ background-color: red;
 width:400px;
 height: 500px;
 flex-direction: columm;
-
-img{
-    height: 200px;
-}
 `;

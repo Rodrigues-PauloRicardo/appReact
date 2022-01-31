@@ -28,9 +28,10 @@ export const  Descrition = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 500px;
+height: 100vh;
 color: black;
 background-color: #C8472F;
+overflow: hidden;
 
 p{
     margin: 10px;
@@ -38,8 +39,11 @@ p{
 
 img{
     margin: 5px;
-    
+    height: 100%;    
     overflow: hidden;
+   
+        
+    }
 }
 `
 

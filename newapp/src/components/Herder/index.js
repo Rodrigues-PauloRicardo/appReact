@@ -13,8 +13,7 @@ function Header(){
             <nav>
                 <ul>
                     <li><Link to="./">Inicio</Link></li>
-                    <li><Link to="./config">configurações</Link></li>
-                    <li><Link to="./logout">Sair</Link></li>
+                    <li><Link to="./creditos">Créditos</Link></li>
                 </ul>
             </nav>
         </div>        

@@ -22,6 +22,12 @@ export const AreaHeader = styled.div`
     nav{
         ul{
             display:flex;
+            @media(max-width: 550px) {
+                display: flex;
+                margin-top: 3%;
+                flex-direction: column;
+                
+            }
         }
         li{
             list-style:none;
