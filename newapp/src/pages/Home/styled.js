@@ -19,7 +19,7 @@ export const CaixaPage = styled.div`
     button{
         width: 100%; 
         background-color:#66203C;   
-        color: #fff;       
+                     
     }
     a{
       text-decoration: none;
