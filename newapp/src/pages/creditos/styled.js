@@ -7,5 +7,5 @@ width:400px;
 height: 500px;
 flex-direction: columm;
 
-
 `;
+

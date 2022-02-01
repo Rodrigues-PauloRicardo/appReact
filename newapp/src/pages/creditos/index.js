@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ContainerPage, TitlePage, Descrition} from '../../components/Main';
+import { ContainerPage, TitlePage, Descrition, Creditos} from '../../components/Main';
 
 import imagemWiki from '../../img/Wikipedia.png';
 
@@ -12,7 +12,9 @@ const Page = () => {
     <ContainerPage>
         <TitlePage>Créditos de textos e imagens</TitlePage>
         <Descrition> 
-             <img src={imagemWiki} />    
+            <Creditos>
+             <img src={imagemWiki} alt="imagem globo wikipedia" /> 
+            </Creditos>    
         </Descrition>
 
     </ContainerPage>

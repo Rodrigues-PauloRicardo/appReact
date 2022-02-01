@@ -46,4 +46,15 @@ img{
     }
 }
 `
+export const Creditos = styled.div`
+img{
+    margin-top: 20%;    
+    height: 20%;
+
+    @media(max-width: 550px) {
+        margin-top: 30%;  
+        height: 15%;
+      
+};
+`
 
