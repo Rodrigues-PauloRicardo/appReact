@@ -15,7 +15,6 @@ import Trunks from './pages/trunks';
 export default() =>{
    return (
     <Routes>
-
         <Route path="/" exact element={<Home />} />
         <Route path="/creditos" exact element={<Creditos />} />
         <Route path="/goku" exact element={<Goku />} />
@@ -26,9 +25,7 @@ export default() =>{
         <Route path="/piccolo" exact element={<Piccolo/>} />
         <Route path="/gohan" exact element={<Gohan />} />
         <Route path="/vegeta" exact element={<Vegeta />} />
-        <Route path="/trunks" exact element={<Trunks />} />
-        
-            
+        <Route path="/trunks" exact element={<Trunks />} />            
     </Routes>
     );
 }

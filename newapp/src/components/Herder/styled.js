@@ -8,7 +8,11 @@ export const AreaHeader = styled.div`
     .container{
         padding: 5px 20px;
         display: flex;
-        align-items: center;    
+        align-items: center; 
+        @media(max-width: 360px) {
+            display: flex;
+            position: absolute
+            margin-top: 3%;
     }
 
     .logo{
